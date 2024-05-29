@@ -1,0 +1,37 @@
+.patient{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em
+}
+
+.patient:hover{
+    background-color: #D8FCF7;
+    cursor: pointer;
+}
+
+.patientImage{
+    height: 70%;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1em;
+}   
+
+.patientInfo{
+    display: flex;
+    flex-direction: column;
+}
+.patientName{
+    font-weight: bolder;
+    margin-bottom: .25em;
+}
+.patientInfoLine{
+    color: #707070
+}
+
+.hamburgerCover{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}

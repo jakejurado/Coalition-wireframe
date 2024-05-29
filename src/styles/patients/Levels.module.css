@@ -1,0 +1,11 @@
+.levels{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #072635;
+    font-size: .85em; 
+}
+
+.levels img{
+    margin-right: .5em;
+}

@@ -1,0 +1,36 @@
+#card{
+    width: 32%;
+    padding: 1em;
+    border-radius: 12px;
+}
+
+.respBackground{
+    background-color: #E0F3FA;
+}
+.tempBackground{
+    background-color: #FFE6E9;
+}
+.rateBackground{
+    background-color: #FFE6F1;
+}
+
+
+#card ul{
+    margin-top: 1em;
+    list-style-type: none;
+}
+#title{
+    font-size: .90em;
+    margin-bottom: .25em;
+}
+#value{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#levels{
+    font-size: .75em;
+    margin: 1em 0 1em 0;
+}
+

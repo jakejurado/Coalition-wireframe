@@ -1,0 +1,60 @@
+#patientSummary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2em;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    
+}
+
+#patientPhoto{
+    margin-bottom: 1em;
+}
+
+
+#patientSummary ul{
+    margin-top: 1em;
+    width: 100%;
+    list-style-type: none;
+    font-family: manrope;
+    color: #072635
+}
+
+#patientSummary ul li{
+    display: flex;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+#patientSummary ul li img{
+    margin-right: 1em;
+}
+
+.patientDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.patientDetailsVars{
+    font-weight: bold;
+    margin-top: .25em;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: #01F0D0;
+    margin-top: 2em;
+    border: none;
+    padding: 1em 3em 1em 3em;
+    border-radius: 25px;
+}
+
+#button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+#patients {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:#f6f7f8;
+}
+
+#patientsCenterCol{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 1em 0 1em;
+}
+
+#patientsRightCol{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 0
+}
+
+
+#diagnosticHistory{
+    display: flex;
+    width: 70%;
+    padding: 1em;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+
+#noDataCover{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#noData{
+    display: flex;
+    width: 75%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+
+@media screen and (max-width: 1250px) {
+    #patients{
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    #patientsCenterCol{
+        order: 2;
+        width: 100%;
+    }
+    #patientsRightCol{
+        order: 1;
+        width: 50%;
+        padding-left: .5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #patientsRightCol{
+        width: 100%;
+    }
+}

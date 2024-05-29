@@ -1,0 +1,24 @@
+{
+  "name": "colition",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "chart.js": "^4.4.3",
+    "next": "14.2.3",
+    "node-fetch": "^3.3.2",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}

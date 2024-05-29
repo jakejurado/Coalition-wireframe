@@ -1,0 +1,99 @@
+#chartCover{
+    display: flex;
+    background-color: #F4F0FE;
+    padding: 1em;
+    border-radius: 12px;
+    margin: 2em 0 1em 0;
+    width: 100%;
+}
+
+#colLeft{
+    width: 66%;
+}
+
+#chartHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: Manrope;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+#selectHistory{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #072635;
+    font-size: .75em;
+    font-weight: normal;
+}
+
+#selectHistory p{
+    margin-right: .5em;
+}
+
+#selectHistory img:hover{
+    cursor: pointer;
+}
+
+#colRight{
+    width: 34%;
+    padding: 0 1em 0 1em;
+}
+
+.legend{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.baseLine{
+    border-bottom: solid thin #e9e9e9;
+
+
+}
+
+.legend p{
+    margin-top: .5em;
+}
+
+.value{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: .25em;
+}
+.levels{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #072635;  
+}
+
+.levels img{
+    margin-right: .5em;
+}
+
+.pinkDot{
+    width: 14px;
+    height: 14px;
+    background-color: #E66FD2;
+    border-radius: 25px;
+    margin-right: .5em;
+}
+
+.purpleDot{
+    width: 14px;
+    height: 14px;
+    background-color: #8C6FE6;
+    border-radius: 25px;
+    margin-right: .5em;
+}
