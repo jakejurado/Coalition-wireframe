@@ -3,7 +3,7 @@ import { usePatient } from "@/hooks/usePatient";
 import style from "@/styles/patients/Summary.module.css";
 import Image from "next/image";
 import birthIcon from "../../../public/icons/BirthIcon/BirthIcon@2x.png";
-import femaleIcon from "../../../public/icons/femaleIcon/FemaleIcon@2x.png";
+import femaleIcon from "../../../public/icons/FemaleIcon/FemaleIcon@2x.png";
 import maleIcon from "../../../public/icons/MaleIcon/MaleIcon.svg";
 import insuranceIcon from "../../../public/icons/InsuranceIcon/InsuranceIcon@2x.png";
 import phoneIcon from "../../../public/icons/PhoneIcon/PhoneIcon@2x.png";
